@@ -1,0 +1,110 @@
+.navbar-brand {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+/*font size of rest of sheet*/
+.replace {
+	font-size: 100px
+}
+
+/**************PAGE STYLES***************/
+.day_header {
+	background-image: url("http://www.printawallpaper.com/upload/designs/daytime_london_detail.jpg");
+  background-size: cover;
+  padding: 130px;
+  margin:auto;
+	height: 680px;
+	text-align: center;
+}
+.day_header h1 {
+	font-size: 70px;
+	margin-top: 300px;
+	color: #bfbfbf
+;
+}
+.page_header {
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+	font-size: 50px;
+}
+.main {
+	background-color: white;
+}
+.container {
+	margin: auto;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+p {
+	margin: 25px 60px 0 60px;
+
+
+}
+.image img{
+	border: 2px solid white;
+	border-radius: 25px;
+	display: inline-block;
+}
+#hydepark {
+	background-color: red;
+}
+
+/**************FOOTER*********************/
+/*background size*/
+#footer {
+	background-color: #191d20;
+	padding: 4em 0;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.container-fluid {
+	background-color: #191d20;
+}
+/*column sizing*/
+
+/*social media icon positioning*/
+#facebook {
+	/*position: relative;
+	float: left;*/
+	display: inline-block;
+}
+#Twitter {
+	display: inline-block;
+	/*position: relative;
+	float: left;*/
+	bottom: 20px;
+}
+#instagram {
+	display: inline-block;
+	/*position: relative;
+	float: left;*/
+	bottom: 44px;
+	padding-left: 15px;
+}
+
+/*text styling*/
+.footerfont {
+	font-size: .9em;
+	color: #a6a6a6;
+	line-height: 1.8;
+	font-family: sans-serif;
+}
+.footerheads {
+	color: white;
+	font-family: Helvetica Neue;
+}
+div#tube_map {
+	position: relative;
+	top: 30px;
+}
+/*subscribe button style*/
+input [type="submit"] {
+	outline: none;
+	background: none;
+}

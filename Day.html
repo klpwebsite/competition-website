@@ -2,71 +2,116 @@
 
 <head>
  <title>London Date Night: Day </title>
- <link rel="stylesheet" type="text/css" href="footer.css">
- <link href='../../bootstrap_exercise-master/bootstrap-4.0.0-beta-dist/css/bootstrap.css' rel='stylesheet'>
+ <link href='Bootstrap/bootstrap4/css/bootstrap.css' rel='stylesheet'>
+ <link rel="stylesheet" type="text/css" href="style.css">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <h1>Day</h1>
-  <p>Our favourite day time dates ...</p>
+  <!-----------NAVBAR------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+    <a class="navbar-brand" href="#">London Date Night</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="date-description" id="hydepark">
-  	<h2>Hyde Park</h2>
-  	<img src=https://www.royalparks.org.uk/parks/hyde-park/things-to-see-and-do/memorials,-fountains-and-statues/diana-memorial-fountain/_gallery/Diana-Memorial-Fountain-from-across-the-Serpentine.jpg/w_1200.jpg />
-  	<p>Hyde Park is the perfect place for a picnic, and a haven of tranquillity right in the heart of London. Its relaxing atmosphere makes it an ideal location for first dates, and you won't be short of things to do; take an open water swim in the Serpentine (not for the faint hearted!) or a visit to the Diana, Princess of Wales Memorial fountain. It's easily accessible by tube, the nearest stations being Hyde Park Corner, Marble Arch and Lancaster Gate. On November 17th Hyde Park will be transformed into the annual Winter Wonderland; you can even book your tickets now for a truly magical date!</p>
-  	<h3>Our recommendations</h3>
-  	<ul class="list" id="hyde-park-list">
-  		<li>Pack yourself a picnic and relax in the beautifully maintained grounds.</li> 
-  		<li>Visit one of the 100 rides in Winter Wonderland.</li>
-  		<li>Do some holiday shopping at one of the Christmas markets.</li>
-  		<li>Try some mulled wine at one of the many stalls set up in the park.</li>
-    </ul>
-    <p>Hyde Park, London, W2 2UH
-    Open 5: am until midnight all year round. Their reception desk is open Monday - Friday, 8.45am-4.45pm.</p>
-    <a href="https://www.royalparks.org.uk/parks/hyde-park">Check out their website for more details.</a>
-   </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Day.html">Day</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="evening.html">Night</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="special_occasions.html">Special Occasions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_us.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
-<br>
+<!---------------DAY CONTENT----->
+<div class="day_header">
+  <h1>Our Favourite Daytime Dates</h1>
+</div>
+<div class="main">
+  <div class="container">
+    <div class="date-description" id="hydepark">
+    	<h2 class="page_header">Hyde Park</h2>
+      <div class="image">
+        <img src= https://www.royalparks.org.uk/parks/hyde-park/things-to-see-and-do/memorials,-fountains-and-statues/diana-memorial-fountain/_gallery/Diana-Memorial-Fountain-from-across-the-Serpentine.jpg/w_1200.jpg width="400" height="300"/>
+      </div>
+    	<p>Hyde Park is the perfect place for a picnic, and a haven of tranquillity right in the heart of London. Its relaxing atmosphere makes it an ideal location for first dates, and you won't be short of things to do; take an open water swim in the Serpentine (not for the faint hearted!) or a visit to the Diana, Princess of Wales Memorial fountain. It's easily accessible by tube, the nearest stations being Hyde Park Corner, Marble Arch and Lancaster Gate. On November 17th Hyde Park will be transformed into the annual Winter Wonderland; you can even book your tickets now for a truly magical date!</p>
+    	<h3>Our recommendations</h3>
+    	<ul class="list" id="hyde-park-list">
+    		<li>Pack yourself a picnic and relax in the beautifully maintained grounds.</li>
+    		<li>Visit one of the 100 rides in Winter Wonderland.</li>
+    		<li>Do some holiday shopping at one of the Christmas markets.</li>
+    		<li>Try some mulled wine at one of the many stalls set up in the park.</li>
+      </ul>
+      <p>Hyde Park, London, W2 2UH
+      Open 5: am until midnight all year round. Their reception desk is open Monday - Friday, 8.45am-4.45pm.</p>
+      <a href="https://www.royalparks.org.uk/parks/hyde-park">Check out their website for more details.</a>
+     </div>
 
-  <div class="date-description" id="observatory">
-  	<h2>Royal Observatory Greenwich</h2>
-  	<img src=http://www.rmg.co.uk/sites/default/files/styles/banner/public/Peter_Harrison_Planetarium_Theatre_Dome.jpg?itok=iuk65VVu />
-  	<p>The Royal Observatory may not seem like an obvious place for a date, but the short journey to Greenwich is well worth it for a date full of ice-breakers and beautiful views. You can check out the free Insight Astronomy Photographer of the Year Award exhibition (on until July 2018) as well as free entry to the Astronomy Centre, the Altazimuth Pavilion, shop, and cafe. And, as anyone who has seen La La Land knows, there's nowhere more romantic than a planetarium.</p>
-  	<h3>Our recommendations</h3>
-  	<ul class="list" id="observatory-list">
-  		<li>Stand on the world's Prime Meridian where East meets West.</li>
-  		<li>Enjoy the stunning views over the River Thames and the London skyline.</li>
-  		<li>Take in one of the observatory's planetarium shows.</li>
-    </ul>
-    <p>    	Full address: Royal Observatory, Blackheath Avenue, Greenwich SE10 8XJ 
-    	    Open daily from 10am - 5pm Including Bank Holidays
-    	    <a href="http://www.rmg.co.uk/royal-observatory">Check out thier website for more details.</a> 
+  <br>
 
-    </p>
+    <div class="date-description" id="observatory">
+    	<h2 class="page_header">Royal Observatory Greenwich</h2>
+      <div class="image">
+        <img src=http://www.rmg.co.uk/sites/default/files/styles/banner/public/Peter_Harrison_Planetarium_Theatre_Dome.jpg?itok=iuk65VVu width="600" height="300"/>
+      </div>
+    	<p>The Royal Observatory may not seem like an obvious place for a date, but the short journey to Greenwich is well worth it for a date full of ice-breakers and beautiful views. You can check out the free Insight Astronomy Photographer of the Year Award exhibition (on until July 2018) as well as free entry to the Astronomy Centre, the Altazimuth Pavilion, shop, and cafe. And, as anyone who has seen La La Land knows, there's nowhere more romantic than a planetarium.</p>
+    	<h3>Our recommendations</h3>
+    	<ul class="list" id="observatory-list">
+    		<li>Stand on the world's Prime Meridian where East meets West.</li>
+    		<li>Enjoy the stunning views over the River Thames and the London skyline.</li>
+    		<li>Take in one of the observatory's planetarium shows.</li>
+      </ul>
+      <p>    	Full address: Royal Observatory, Blackheath Avenue, Greenwich SE10 8XJ
+      	    Open daily from 10am - 5pm Including Bank Holidays
+      	    <a href="http://www.rmg.co.uk/royal-observatory">Check out thier website for more details.</a>
+
+      </p>
+    </div>
+
+  <br>
+
+    <div class="date-description" id="Bellanger">
+    	<h2 class="page_header">Our favourite place to eat: Bellanger</h2>
+      <div class="image">
+      	<img src=https://www.standard.co.uk/s3fs-public/styles/hero_tablet/public/thumbnails/image/2016/01/21/11/bellanger-grace-dent.jpg width="400" height="300"/>
+      </div>
+    	<p>Chic but relaxed, Bellanger is a traditional French brasserie and grand cafe in the heart of Islington; the ideal place to meet for a breakfast date. Take advantage of their extensive breakfast and lunch menus, but be sure to book as it's become so popular. Equally, if you're just arranged to meet your date for coffee then suggesting Bellanger is a guaranteed way to make an impression.</p>
+    	<h3>Our recommendations:</h3>
+    	<ul class="list" id="Bellanger-list">
+    		<li>Looking for a weekend date? Try Bellanger's Weekend Brunch, served every Saturday and Sunday from 11.30am to 5pm. We'd especially recommend their waffles!</li>
+    		<li>Before you visit whet your appetite by checking out their supremely pretty <a href="https://www.instagram.com/bellanger_n1/">Instagram</a></li>
+    		<li>Head to the bar for French wines by the glass, Alsace-Lorraine beers on tap and classic cocktails.</li>
+    	</ul>
+    	<p>Find Bellanger at 9 Islington Green, London, N1 The nearest tube stations and Angel and Holloway Road.
+    	Check out thier <a href="https://www.bellanger.co.uk/">website</a> for serving hours.</p>
+    </div>
   </div>
+</div>
 
-<br>
-
-  <div class="date-description" id="Bellanger">
-  	<h2>Our favourite place to eat: Bellanger</h2>
-  	<img src=https://www.standard.co.uk/s3fs-public/styles/hero_tablet/public/thumbnails/image/2016/01/21/11/bellanger-grace-dent.jpg />
-  	<p>Chic but relaxed, Bellanger is a traditional French brasserie and grand cafe in the heart of Islington; the ideal place to meet for a breakfast date. Take advantage of their extensive breakfast and lunch menus, but be sure to book as it's become so popular. Equally, if you're just arranged to meet your date for coffee then suggesting Bellanger is a guaranteed way to make an impression.</p>
-  	<h3>Our recommendations:</h3>
-  	<ul class="list" id="Bellanger-list">
-  		<li>Looking for a weekend date? Try Bellanger's Weekend Brunch, served every Saturday and Sunday from 11.30am to 5pm. We'd especially recommend their waffles!</li>
-  		<li>Before you visit whet your appetite by checking out their supremely pretty <a href="https://www.instagram.com/bellanger_n1/">Instagram</a></li>
-  		<li>Head to the bar for French wines by the glass, Alsace-Lorraine beers on tap and classic cocktails.</li>
-  	</ul>
-  	<p>Find Bellanger at 9 Islington Green, London, N1 The nearest tube stations and Angel and Holloway Road.
-  	Check out thier <a href="https://www.bellanger.co.uk/">website</a> for serving hours.</p>
-  </div>
+  <!--------FOOTER------->
 
 	<div id="footer">
 		<footer class="container-fluid">
 			  <div id="footer_text">
                 <div class="row">
-				
+
 				<div class="col-sm-3">
 					<h4 class="footerheads"><b>About Us</b></h4>
 					<br />
@@ -116,12 +161,12 @@
 						<input type="submit" value="Subscribe">
 					</form>
 				</div>
-               
-                <div class="col-sm-3">
-                	<a href="https://nishadvegad.files.wordpress.com/2010/05/tube_map.gif">	
+
+        <div class="col-sm-3">
+          <a href="https://nishadvegad.files.wordpress.com/2010/05/tube_map.gif">
 					<img src="https://nishadvegad.files.wordpress.com/2010/05/tube_map.gif" alt="Tube Map" style="width:300px;height:200px">
-				    </a>
-				   </div>
+				   </a>
+				</div>
 
 			  </div>
 			</div>
