@@ -52,38 +52,40 @@ p {
 #hydepark {
 	background-color: red;
 }
-
 /**************FOOTER*********************/
 /*background size*/
+/*.one {
+	text-align: center;
+}
+.two {
+	text-align: center;
+}
+.three {
+	text-align: center;
+}*/
 #footer {
-	background-color: #191d20;
+	background-color: #343a40;
 	padding: 4em 0;
-	padding-right: 40px;
-	padding-left: 40px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-top: 20px;
 }
 div.container-fluid {
-	background-color: #191d20;
+	background-color: #343a40;
 }
 /*column sizing*/
-
+.col-md-3 {
+	padding: 15px;
+	text-align: center;
+}
 /*social media icon positioning*/
 #facebook {
-	/*position: relative;
-	float: left;*/
 	display: inline-block;
 }
 #Twitter {
 	display: inline-block;
-	/*position: relative;
-	float: left;*/
 	bottom: 20px;
 }
 #instagram {
 	display: inline-block;
-	/*position: relative;
-	float: left;*/
 	bottom: 44px;
 	padding-left: 15px;
 }
@@ -104,7 +106,8 @@ div#tube_map {
 	top: 30px;
 }
 /*subscribe button style*/
-input [type="submit"] {
+input {
 	outline: none;
-	background: none;
+	background-color: white;
+	margin-top: 10px;
 }
