@@ -13,17 +13,6 @@
   max-width: 1000px;
   margin: 0 auto;
 }
-.carousel_header {
-    font: 600 1.5em/1 'Raleway', sans-serif;
-    color: #8E2A48;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    position: absolute;
-    top: 30%;
-    width: 100%;
-}
-
 span, span:after {
     font-weight: 900;
     color: #F391E2;
