@@ -77,9 +77,6 @@ p {
 	border-radius: 25px;
 	display: inline-block;
 }
-#hydepark {
-	background-color: red;
-}
 /*************Evening********************/
 .evening_header {
 	background-image: url("https://www.hdwallpapers.in/walls/london_at_night-wide.jpg");
@@ -91,8 +88,26 @@ p {
 }
 .evening_header h1 {
 	font-size: 70px;
-	margin-top: 10px;
+	margin-top: -60px;
 	color: #bfbfbf;
+}
+.evening_title {
+	font-size: 60px;
+	font-family: monospace;
+	font-weight: bold;
+	margin: 20px 0;
+	color: rgba(61, 5, 61, 0.99);
+}
+#duckAndWaffle {
+	margin-top: 20px;
+	padding-bottom: 25px;
+}
+.evening_ptags {
+	font-family: unset;
+	width: 744px;
+  margin: 20px auto 0 auto;
+	font-size: 17px;
+	color: rgba(61, 5, 61, 0.99);
 }
 /**************SPECIAL OCCASIONS********/
 .occasions_header {
@@ -105,14 +120,32 @@ p {
 }
 .occasions_header h1 {
 	font-size: 70px;
-	margin-top: 10px;
+	margin-top: -100px;
 	color: #bfbfbf;
+}
+#The_Shard {
+	margin-top: 20px;
+	padding-bottom: 25px;
+}
+.occasions_title {
+	font-size: 60px;
+	font-family: monospace;
+	font-weight: bold;
+	margin: 20px 0;
+	color: #050585;
+}
+.occasions_ptags {
+	font-family: unset;
+	width: 744px;
+  margin: 20px auto 0 auto;
+	font-size: 17px;
+	color: #050585;
 }
 /**************FOOTER*********************/
 #footer {
 	background-color: #343a40;
-	padding: 4em 0;
-	margin-top: 20px;
+	padding: 20px 0;
+	margin-top: 40px;
 }
 div.container-fluid {
 	background-color: #343a40;
@@ -138,7 +171,6 @@ div.container-fluid {
 
 /*text styling*/
 .footerfont {
-	font-size: .9em;
 	color: #a6a6a6;
 	line-height: 1.8;
 	font-family: sans-serif;
