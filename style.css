@@ -190,3 +190,40 @@ input {
 	background-color: white;
 	margin-top: 10px;
 }
+/*Media query responsive design*/
+@media (max-width: 480px) {
+body {
+	Width: 100%;
+	Margin: auto;
+	}
+h1 {
+	font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+	font-size: 15px;
+}
+p {
+   font-size: 10px;
+}
+li {
+	font-size: 10px;
+}
+.day_header h1 {
+font-size: 20px;
+}
+.evening_header h1 {
+font-size: 20px;
+}
+.occasions_header h1 {
+font-size: 20px;
+}
+.footerfont {
+font-size: 5px;
+}
+.footerheads {
+font-size: 10px;
+}
+}
