@@ -39,6 +39,41 @@ span:after {
     z-index: -1;
     -webkit-mask-image: url(https://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
 }
+/***OUR FAVOURITES***/
+#suggestions h2{
+	text-align: center;
+	color: pink;
+	font-family: monospace;
+	font-size: 60px;
+}
+#suggestions {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-right: 80px;
+	padding-left: 80px;
+	margin: 0 auto;
+	background-color: white;
+}
+#suggestions img{
+	border: 2px solid white;
+	border-radius: 25px;
+	margin: 0;
+}
+.thumbnail {
+	position: relative;
+}
+.caption {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+.caption p {
+	font-family: monospace;
+	font-size: 40px;
+	color: pink;
+	text-shadow: 3px 3px 0px #000; 
+}
 /**************DAY PAGE STYLES***************/
 .day_header {
 	background-image: url("http://www.printawallpaper.com/upload/designs/daytime_london_detail.jpg");
