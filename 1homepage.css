@@ -1,0 +1,17 @@
+div {
+    padding: 10px 10px 200px 250px; 
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1 { color: #9700E8; font-family: "Great Vibes", 
+cursive; 
+font-size: 100px; 
+line-height: 160px; 
+font-weight: normal; 
+padding: 200px;
+margin-top: 150px;
+margin-left: 100px;
+position: absolute;
+text-align: center; 
+text-shadow: 0 1px 1px #FFF33E; }
