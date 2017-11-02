@@ -88,11 +88,23 @@ span:after {
 	margin-top: 300px;
 	color: #bfbfbf;
 }
-.page_header {
-	text-align: center;
-	padding: 20px;
-	margin-top: 30px;
-	font-size: 50px;
+.day_title {
+	font-size: 60px;
+	font-family: monospace;
+	font-weight: bold;
+	margin: 20px 0;
+	color: rgba(61, 5, 61, 0.99);
+}
+#hydepark {
+	margin-top: 20px;
+	padding-bottom: 25px;
+}
+.day_ptags {
+	font-family: unset;
+	width: 744px;
+  margin: 20px auto 0 auto;
+	font-size: 17px;
+	color: rgba(61, 5, 61, 0.99);
 }
 .main {
 	background-color: white;
@@ -100,9 +112,6 @@ span:after {
 .container {
 	margin: auto;
 	text-align: center;
-}
-ul {
-	list-style-type: none;
 }
 p {
 	margin: 25px 60px 0 60px;
@@ -175,6 +184,18 @@ p {
   margin: 20px auto 0 auto;
 	font-size: 17px;
 	color: #050585;
+}
+
+/************* CONTACT PAGE**************/
+.contact h1 {
+	font-size: 60px;
+	font-family: monospace;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.contact p {
+	font-size: 17px;
+	font-family: unset;
 }
 /**************FOOTER*********************/
 #footer {
