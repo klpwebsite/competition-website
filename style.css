@@ -7,6 +7,19 @@
 .replace {
 	font-size: 100px
 }
+.index_title {
+color: #9700E8; font-family: "Great Vibes",
+cursive;
+font-size: 100px;
+line-height: 160px;
+font-weight: normal;
+padding: 200px;
+margin-top: 150px;
+margin-left: 100px;
+position: absolute;
+text-align: center;
+text-shadow: 0 1px 1px #FFF33E;
+}
 /**************CAROUSEL*********************/
 .carousel {
   display: block;
@@ -72,7 +85,7 @@ span:after {
 	font-family: monospace;
 	font-size: 40px;
 	color: pink;
-	text-shadow: 3px 3px 0px #000; 
+	text-shadow: 3px 3px 0px #000;
 }
 /**************DAY PAGE STYLES***************/
 .day_header {
