@@ -156,11 +156,29 @@ p {
 	font-size: 60px;
 	font-family: monospace;
 	font-weight: bold;
-	margin: 20px 0;
+	margin:40px;
+	padding: 20px;
+}
+.contact h2 {
+	margin: 40px;
 }
 .contact p {
 	font-size: 17px;
 	font-family: unset;
+}
+.form {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.form input {
+	border: 2px solid black;
+}
+.form h2 {
+	margin-left: 5px;
+}
+#message_box input {
+	height: 300px;
+	width: 700px;
 }
 /**************FOOTER*********************/
 #footer {
