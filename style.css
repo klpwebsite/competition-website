@@ -187,15 +187,34 @@ p {
 }
 
 /************* CONTACT PAGE**************/
-.contact h1 {
-	font-size: 60px;
+.contact_header {
+	height: 220px;
+	text-align: center;
+	background-image: url(https://cdn.pixabay.com/photo/2017/07/26/21/34/trafalgar-square-2543172_960_720.jpg);
+	background-size: cover;
+	padding-top: 0px;
+	margin: auto;
+}
+.contact_header h1 {
+	font-size: 100px;
+	color: white;
+	padding-top: 40px;
 	font-family: monospace;
-	font-weight: bold;
-	margin:40px;
-	padding: 20px;
+	text-shadow: 3px 3px 0px #000
+}
+.contact_info {
+	margin-top: -40px;
+	background-color: grey;
+	background: cover;
+	margin: auto;
+}
+.contact {
+	margin-top: -40px;
+	padding-top: 0px;
 }
 .contact h2 {
-	margin: 40px;
+	margin: 20px;
+	color: white;
 }
 .contact p {
 	font-size: 17px;
@@ -286,18 +305,21 @@ li {
 	font-size: 10px;
 }
 .day_header h1 {
-font-size: 20px;
+font-size: 25px;
 }
 .evening_header h1 {
-font-size: 20px;
+font-size: 25px;
 }
 .occasions_header h1 {
-font-size: 20px;
+font-size: 25px;
+}
+.contact_header h1 {
+	font-size: 25px;
 }
 .footerfont {
-font-size: 5px;
+font-size: 10px;
 }
 .footerheads {
-font-size: 10px;
+font-size: 15px;
 }
 }
